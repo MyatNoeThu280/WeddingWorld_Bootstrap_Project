@@ -1,0 +1,170 @@
+
+.margin{
+	max-width: 30.0rem;
+	border-width: .2rem;
+	border-color: white;
+}
+
+hr.style-seven {
+	overflow: visible; /* For IE */
+	height: 30px;
+	width: 20%;
+	border-style: solid;
+	border-color: #EE959E;
+	border-width: 1px 0 0 0;
+	border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+	display: block;
+	content: "";
+	height: 30px;
+	margin-top: -31px;
+	border-style: solid;
+	border-color: #EE959E;
+	border-width: 0 0 1px 0;
+	border-radius: 20px;
+}
+div.Img img{
+	width: 100% !important;
+	height: 500px !important;
+	
+}
+.title{
+	font-family: 'niconne';
+	font-size: 50px;
+	color: #EE959E;
+}
+div.card img{
+	height: 280px !important;
+	object-fit: cover;
+}
+			
+div.card-body p, a{
+	font-family: 'roboto';
+	font-size: 18px;
+}
+
+div.card-body h4{
+	font-family: 'niconne';
+	font-size: 20px;
+	color: #EE959E;
+}
+div.card img:hover{
+	transform: scale(0.95);
+}
+div.card img{
+	transition: all 0.5s ease;
+}
+.footer-section{
+	background-color:pink;
+
+}
+.social-media .facebook,.social-media .instagram,.social-media .twitter{
+	color:black;
+}
+.facebook:hover{
+	font-size:20px;
+	color:blue;
+}
+.instagram:hover{
+	font-size:20px;
+	color:#F5A9D0;
+}
+.twitter:hover{
+	font-size: 20px;
+	color:#58D3F7;
+}
+/*home.css*/
+/* start of navigation */
+.nav-link{
+	font-size: 1.4rem;
+	font-family: 'roboto';
+
+}
+
+img.logo-image{
+	max-width: 4%;
+	 }
+.nav-bg-color{
+		background-color: lightgray;
+	}
+.nav-bg-color a{
+		color:#CD5E77;
+	}
+	
+.navbar-toggler-icon{
+	 background-color:#EE959E; 
+	}
+.navbar-brand,.foral_design,.cake_design,.dress_design,.jewelry{
+		font-family: 'niconne';
+	}
+.What_we_offer,h2.carousel_text,.profolio,.lastest_post,.carousel_text,.content,.rights,.content_one{
+		font-family:'lobster';
+		
+	}
+
+/* end of navigation */
+.card-body img{
+	display: block;
+    max-width: 100%;
+	height: auto;
+    
+} 
+
+ /* hr line */
+ hr.divided_by {
+	max-width:6rem;
+    overflow: visible;
+    height: 30px;
+    width: 25%;
+    border-style: solid;
+    border-color: #EE959E;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.divided_by:before { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #EE959E;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+.container img{
+	width:100%;
+	height:100%;
+}
+
+.carousel-item img .wedding-img{
+	width:10%;
+	height: 30px;
+}
+/* Footer Section */
+.map,.phone{
+	color: black;
+}
+.footer-section{
+
+	background-color:#EE959E;
+
+}
+.social-media .facebook,.social-media .instagram,.social-media .twitter{
+	color:black;
+}
+.facebook:hover{
+	font-size:20px;
+	color:blue;
+}
+.instagram:hover{
+	font-size:20px;
+	color:#F5A9D0;
+}
+.twitter:hover{
+	font-size: 20px;
+	color:#58D3F7;
+}
+/* end of footer section */
+
+ 
